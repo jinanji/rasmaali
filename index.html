@@ -6,6 +6,7 @@
     
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
+    <script src="dumbo.js"></script>
     
   </head>
 
@@ -15,7 +16,7 @@
         <ul class="pull-left">
           <li class="pill"><a href="index.html">Home</a></li>
           <li><a href="#">Forum</a></li>
-          <li><a href="#">Store</a></li>
+          <li><a href="store.html">Store</a></li>
         </ul>
         <ul class="pull-right">
           <li><a href="#">Sign Up</a></li>
@@ -26,8 +27,9 @@
     </div>
 
     <div class="jumbotron">
+      <div class="pageOne" id="Jumbo" onclick="changeJumbo()">
       <div class="container">
-        <h1>Dante wants YOU!</h1>
+        <h1 id="jumboHeader">Dante wants YOU!</h1>
         <p>To join in the celebration of 4kFest,the festival for kings.</p>
         <a href="#">Learn More</a>
       </div>

@@ -11,7 +11,8 @@
 }
 
 .jumbotron {
-  background-image:url('http://static.comicvine.com/uploads/original/11124/111240936/5022324-7745155347-dante.png');
+  background-iage:url('http://static.comicvine.com/uploads/original/11124/111240936/5022324-7745155347-dante.png');
+  padding: 0px;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +30,7 @@
   font-weight: bold;
 }
 
-.jumbotron p {
+.jumbotron  p {
   font-size: 20px;
   color: #fff;
 }
@@ -60,6 +61,26 @@
   font-size: 15px;
   margin-bottom: 13px;
 }
-  
+
+
+
+.pageOne {
+  background-image:url('http://static.comicvine.com/uploads/original/11124/111240936/5022324-7745155347-dante.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s;
+
+}
+
+
+.pageTwo {
+  background-image:url('http://media.blizzard.com/wow/media/artwork/wow-characters/illidan-stormrage1-full.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s;
+
+}
   
   
